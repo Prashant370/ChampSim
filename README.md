@@ -86,4 +86,23 @@ Instructions for using the Champsim Simulator are provided.
 - [Champsim Download Link](https://drive.google.com/file/d/1RgT3E2AUDhLu2mxse0W6U7rG4hcGFfCx/view?usp=sharing)
 
 
+To use the Champsim Simulator, follow these steps:
+
+1. **Create a New Folder**: Create a new folder named `dpc3_traces` and place the downloaded trace files in it.
+
+2. **Grant Permissions**: Grant permissions for both `build_champsim.sh` and `run_champsim.sh` scripts. Use the following commands:
+   ```bash
+   chmod +x build_champsim.sh
+   chmod +x run_champsim.sh
+
+3. **Building**: To build the simulator, use the following command:
+   ```bash
+    ./build_champsim.sh bimodal no no no no lru 1
+
+4. **Running**: To run the simulator, use the following command:
+   ```bash
+     ./run_champsim.sh bimodal-no-no-no-no-lru-1core 1 10 gcc_13B.trace.xz
+   
+> **Note:**  Replace bimodal-no-no-no-no-lru-1core, 1, and 10 with the desired parameters. gcc_13B.trace.xz is an example trace file.
+
 
