@@ -1,0 +1,310 @@
+
+*** ChampSim Multicore Out-of-Order Simulator ***
+
+Warmup Instructions: 1000000
+Simulation Instructions: 10000000
+Number of CPUs: 1
+LLC sets: 2048
+LLC ways: 16
+Off-chip DRAM Size: 4096 MB Channels: 1 Width: 64-bit Data Rate: 3200 MT/s
+
+CPU 0 runs dpc3_traces/605.mcf_s-1536B.champsimtrace.xz
+CPU 0 Bimodal branch predictor
+
+Warmup complete CPU 0 instructions: 1000001 cycles: 328051 (Simulation time: 0 hr 0 min 3 sec) 
+
+Heartbeat CPU 0 instructions: 10000002 cycles: 47696007 heartbeat IPC: 0.209661 cumulative IPC: 0.190002 (Simulation time: 0 hr 1 min 2 sec) 
+Finished CPU 0 instructions: 10000000 cycles: 52712285 cumulative IPC: 0.189709 (Simulation time: 0 hr 1 min 9 sec) 
+
+ChampSim completed all CPUs
+
+Region of Interest Statistics
+
+CPU 0 cumulative IPC: 0.189709 instructions: 10000000 cycles: 52712285
+L1D TOTAL     ACCESS:    1848618  HIT:    1477173  MISS:     371445
+L1D LOAD      ACCESS:    1405177  HIT:    1061471  MISS:     343706
+L1DL1D PREFETCH  ACCESS:          0  HIT:          0  MISS:          0
+L1D WRITEBACK ACCESS:          0  HIT:          0  MISS:          0
+L1D PREFETCH  REQUESTED:          0  ISSUED:          0  USEFUL:          0  USELESS:          0
+L1D AVERAGE MISS LATENCY: 109.522 cycles
+L1I TOTAL     ACCESS:    1976508  HIT:    1976508  MISS:          0
+L1I LOAD      ACCESS:    1976508  HIT:    1976508  MISS:          0
+L1IL1I PREFETCH  ACCESS:          0  HIT:          0  MISS:          0
+L1I WRITEBACK ACCESS:          0  HIT:          0  MISS:          0
+L1I PREFETCH  REQUESTED:          0  ISSUED:          0  USEFUL:          0  USELESS:          0
+L1I AVERAGE MISS LATENCY: -nan cycles
+L2C TOTAL     ACCESS:     593150  HIT:     328138  MISS:     265012
+L2C LOAD      ACCESS:     343706  HIT:      79097  MISS:     264609
+L2CL2C PREFETCH  ACCESS:          0  HIT:          0  MISS:          0
+L2C WRITEBACK ACCESS:     221705  HIT:     221705  MISS:          0
+L2C PREFETCH  REQUESTED:          0  ISSUED:          0  USEFUL:          0  USELESS:          0
+L2C AVERAGE MISS LATENCY: 119.806 cycles
+LLC TOTAL     ACCESS:     486988  HIT:     310487  MISS:     176501
+LLC LOAD      ACCESS:     264609  HIT:     128849  MISS:     135760
+LLCLLC PREFETCH  ACCESS:          0  HIT:          0  MISS:          0
+LLC WRITEBACK ACCESS:     221976  HIT:     181271  MISS:      40705
+LLC PREFETCH  REQUESTED:          0  ISSUED:          0  USEFUL:          0  USELESS:          0
+LLC AVERAGE MISS LATENCY: 130.932 cycles
+Major fault: 0 Minor fault: 7236
+
+DRAM Statistics
+ CHANNEL 0
+ RQ ROW_BUFFER_HIT:       3107  ROW_BUFFER_MISS:     132689
+ DBUS_CONGESTED:      32965
+ WQ ROW_BUFFER_HIT:       2573  ROW_BUFFER_MISS:     143714  FULL:          0
+
+ AVG_CONGESTED_CYCLE: 6
+
+CPU 0 Branch Prediction Accuracy: 99.9707% MPKI: 0.0457 Average ROB Occupancy at Mispredict: 178
+
+Branch types
+NOT_BRANCH: 8442252 84.4225%
+BRANCH_DIRECT_JUMP: 227439 2.27439%
+BRANCH_INDIRECT: 0 0%
+BRANCH_CONDITIONAL: 886873 8.86873%
+BRANCH_DIRECT_CALL: 221719 2.21719%
+BRANCH_INDIRECT_CALL: 0 0%
+BRANCH_RETURN: 221718 2.21718%
+BRANCH_OTHER: 0 0%
+
+*****************************************************************************
+Total Access: 958571 , Number of Tag Comparsion: 12046967
+Overhead: 12.5676
+ Categorisation of sets based on accesses 
+*****************
+     Very Hot     
+*****************
+Set No             Freq 
+1265             545
+*****************
+      Hot     
+*****************
+Set No             Freq 
+1220             545
+1130             545
+1044             545
+454             545
+1579             544
+655             543
+565             543
+79             543
+1753             542
+621             542
+1058             541
+618             541
+510             541
+25             541
+994             540
+759             540
+688             540
+408             540
+206             540
+1561             539
+728             539
+281             539
+1578             538
+973             538
+509             538
+1367             537
+1314             537
+464             537
+127             537
+1416             536
+1124             536
+205             536
+506             535
+1677             534
+993             534
+296             534
+1127             533
+1560             532
+1139             532
+866             532
+700             532
+1507             530
+1309             530
+106             530
+1576             529
+1292             529
+504             529
+1796             528
+1832             527
+1413             527
+*****************
+     Very Cold    
+ *****************
+Set No             Freq 
+623             285
+*****************
+     Cold     
+*****************
+Set No             Freq 
+760             285
+921             285
+1608             285
+1629             285
+1842             285
+80             286
+369             286
+424             286
+562             286
+579             286
+757             286
+799             286
+832             286
+1641             286
+1769             286
+113             287
+246             287
+336             287
+508             287
+539             287
+560             287
+561             287
+641             287
+946             287
+956             287
+980             287
+1134             287
+1477             287
+1495             287
+1497             287
+1513             287
+1572             287
+1636             287
+1695             287
+1724             287
+1761             287
+1813             287
+1839             287
+1875             287
+1944             287
+2014             287
+17             288
+114             288
+134             288
+136             288
+176             288
+184             288
+197             288
+202             288
+288             288
+Categorisation of sets based on Eviction 
+*****************
+     Very Hot     
+*****************
+Set No             Freq 
+1629             548
+*****************
+      Hot     
+*****************
+Set No             Freq 
+1608             547
+921             547
+1265             546
+1220             546
+1130             545
+1044             545
+454             545
+1579             544
+565             544
+79             544
+655             543
+1753             542
+760             542
+623             542
+621             542
+510             542
+25             542
+1058             541
+994             541
+759             541
+728             541
+618             541
+408             541
+206             541
+688             540
+281             540
+1561             539
+1578             538
+973             538
+509             538
+1367             537
+1314             537
+464             537
+127             537
+1416             536
+1124             536
+506             536
+205             536
+1677             534
+993             534
+296             534
+1127             533
+1560             532
+1139             532
+866             532
+700             532
+1507             530
+1309             530
+106             530
+1576             529
+*****************
+     Very Cold    
+ *****************
+Set No             Freq 
+424             286
+*****************
+     Cold     
+*****************
+Set No             Freq 
+561             287
+1134             287
+1944             287
+472             288
+757             288
+976             288
+995             288
+1131             288
+1871             288
+1966             288
+43             289
+303             289
+508             289
+567             289
+695             289
+723             289
+823             289
+832             289
+956             289
+979             289
+980             289
+1048             289
+1189             289
+1260             289
+1458             289
+1495             289
+1634             289
+1769             289
+1836             289
+14             290
+80             290
+114             290
+123             290
+134             290
+136             290
+137             290
+168             290
+169             290
+184             290
+192             290
+199             290
+202             290
+330             290
+336             290
+367             290
+460             290
+468             290
+539             290
+562             290
+579             290
