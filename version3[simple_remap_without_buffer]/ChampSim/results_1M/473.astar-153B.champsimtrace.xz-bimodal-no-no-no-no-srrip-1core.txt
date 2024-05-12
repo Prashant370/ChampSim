@@ -1,0 +1,315 @@
+
+*** ChampSim Multicore Out-of-Order Simulator ***
+
+Warmup Instructions: 1000000
+Simulation Instructions: 1000000
+Number of CPUs: 1
+LLC sets: 2048
+LLC ways: 16
+Off-chip DRAM Size: 4096 MB Channels: 1 Width: 64-bit Data Rate: 3200 MT/s
+
+CPU 0 runs dpc3_traces/473.astar-153B.champsimtrace.xz
+CPU 0 Bimodal branch predictor
+Initialize SRRIP state
+
+Warmup complete CPU 0 instructions: 1000003 cycles: 453122 (Simulation time: 0 hr 0 min 2 sec) 
+
+Finished CPU 0 instructions: 1000000 cycles: 1742772 cumulative IPC: 0.573799 (Simulation time: 0 hr 0 min 3 sec) 
+
+ChampSim completed all CPUs
+
+Region of Interest Statistics
+
+CPU 0 cumulative IPC: 0.573799 instructions: 1000000 cycles: 1742772
+L1D TOTAL     ACCESS:     352416  HIT:     349060  MISS:       3356
+L1D LOAD      ACCESS:     221201  HIT:     218076  MISS:       3125
+L1D RFO       ACCESS:     131215  HIT:     130984  MISS:        231
+L1D PREFETCH  ACCESS:          0  HIT:          0  MISS:          0
+L1D WRITEBACK ACCESS:          0  HIT:          0  MISS:          0
+L1D PREFETCH  REQUESTED:          0  ISSUED:          0  USEFUL:          0  USELESS:          0
+L1D AVERAGE MISS LATENCY: 152.635 cycles
+L1I TOTAL     ACCESS:     155405  HIT:     155405  MISS:          0
+L1I LOAD      ACCESS:     155405  HIT:     155405  MISS:          0
+L1I RFO       ACCESS:          0  HIT:          0  MISS:          0
+L1I PREFETCH  ACCESS:          0  HIT:          0  MISS:          0
+L1I WRITEBACK ACCESS:          0  HIT:          0  MISS:          0
+L1I PREFETCH  REQUESTED:          0  ISSUED:          0  USEFUL:          0  USELESS:          0
+L1I AVERAGE MISS LATENCY: -nan cycles
+L2C TOTAL     ACCESS:       5033  HIT:       2315  MISS:       2718
+L2C LOAD      ACCESS:       3125  HIT:        610  MISS:       2515
+L2C RFO       ACCESS:        231  HIT:         28  MISS:        203
+L2C PREFETCH  ACCESS:          0  HIT:          0  MISS:          0
+L2C WRITEBACK ACCESS:       1677  HIT:       1677  MISS:          0
+L2C PREFETCH  REQUESTED:          0  ISSUED:          0  USEFUL:          0  USELESS:          0
+L2C AVERAGE MISS LATENCY: 169.003 cycles
+LLC TOTAL     ACCESS:       3158  HIT:        166  MISS:       2992
+LLC LOAD      ACCESS:       2515  HIT:          4  MISS:       2511
+LLC RFO       ACCESS:        203  HIT:          0  MISS:        203
+LLC PREFETCH  ACCESS:          0  HIT:          0  MISS:          0
+LLC WRITEBACK ACCESS:        440  HIT:        162  MISS:        278
+LLC PREFETCH  REQUESTED:          0  ISSUED:          0  USEFUL:          0  USELESS:          0
+LLC AVERAGE MISS LATENCY: 126.208 cycles
+Major fault: 0 Minor fault: 994
+
+DRAM Statistics
+ CHANNEL 0
+ RQ ROW_BUFFER_HIT:        926  ROW_BUFFER_MISS:       1788
+ DBUS_CONGESTED:        101
+ WQ ROW_BUFFER_HIT:         14  ROW_BUFFER_MISS:        175  FULL:          0
+
+ AVG_CONGESTED_CYCLE: 5
+
+CPU 0 Branch Prediction Accuracy: 78.2235% MPKI: 28.3999 Average ROB Occupancy at Mispredict: 26.5721
+
+Branch types
+NOT_BRANCH: 869230 86.923%
+BRANCH_DIRECT_JUMP: 5102 0.5102%
+BRANCH_INDIRECT: 0 0%
+BRANCH_CONDITIONAL: 98145 9.8145%
+BRANCH_DIRECT_CALL: 13584 1.3584%
+BRANCH_INDIRECT_CALL: 0 0%
+BRANCH_RETURN: 13585 1.3585%
+BRANCH_OTHER: 0 0%
+
+Buffer size 512
+*****************************************************************************
+Total Access: 3158 , Number of Tag Comparsion: 3654646
+Overhead: 1157.27
+ Categorisation of sets based on accesses 
+*****************
+     Very Hot     
+*****************
+Set No             Freq 
+6             259
+*****************
+      Hot     
+*****************
+Set No             Freq 
+56             257
+39             257
+28             257
+54             254
+30             254
+136             250
+198             247
+215             242
+214             240
+283             232
+68             220
+61             213
+4             200
+279             198
+59             193
+3             192
+2             192
+60             189
+220             182
+157             174
+5             172
+7             169
+0             142
+253             124
+219             124
+155             123
+254             114
+156             86
+64             85
+192             80
+62             72
+255             68
+159             66
+221             52
+348             45
+282             43
+135             38
+134             35
+55             34
+31             29
+141             25
+218             24
+29             21
+278             17
+216             17
+40             13
+270             9
+129             9
+1383             8
+998             8
+*****************
+     Very Cold    
+ *****************
+Set No             Freq 
+349             0
+*****************
+     Cold     
+*****************
+Set No             Freq 
+350             0
+360             0
+367             0
+374             0
+375             0
+378             0
+379             0
+380             0
+381             0
+382             0
+392             0
+415             0
+424             0
+448             0
+456             0
+496             0
+500             0
+502             0
+507             0
+508             0
+509             0
+510             0
+515             0
+520             0
+567             0
+570             0
+571             0
+572             0
+573             0
+574             0
+631             0
+634             0
+635             0
+636             0
+637             0
+638             0
+639             0
+667             0
+668             0
+712             0
+722             0
+723             0
+726             0
+727             0
+730             0
+731             0
+732             0
+733             0
+744             0
+749             0
+Categorisation of sets based on Eviction 
+*****************
+     Very Hot     
+*****************
+Set No             Freq 
+14             1123
+*****************
+      Hot     
+*****************
+Set No             Freq 
+15             780
+6             731
+2             710
+10             668
+0             660
+4             658
+3             639
+12             632
+1             559
+5             534
+7             529
+8             509
+11             505
+17             483
+13             429
+9             422
+49             306
+50             268
+16             243
+46             239
+56             203
+39             191
+33             187
+30             169
+37             160
+28             152
+53             144
+54             141
+214             129
+136             129
+215             128
+198             128
+35             126
+283             124
+68             124
+32             124
+42             123
+57             119
+61             115
+60             113
+59             113
+38             113
+279             112
+43             111
+36             102
+34             101
+220             98
+20             96
+157             91
+25             89
+*****************
+     Very Cold    
+ *****************
+Set No             Freq 
+350             0
+*****************
+     Cold     
+*****************
+Set No             Freq 
+360             0
+367             0
+374             0
+375             0
+378             0
+379             0
+380             0
+381             0
+382             0
+392             0
+415             0
+424             0
+448             0
+456             0
+496             0
+500             0
+502             0
+507             0
+508             0
+509             0
+510             0
+515             0
+520             0
+567             0
+570             0
+571             0
+572             0
+573             0
+574             0
+631             0
+634             0
+635             0
+636             0
+637             0
+638             0
+639             0
+667             0
+668             0
+712             0
+722             0
+723             0
+726             0
+727             0
+730             0
+731             0
+732             0
+733             0
+744             0
+749             0
+751             0

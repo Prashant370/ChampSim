@@ -1,0 +1,315 @@
+
+*** ChampSim Multicore Out-of-Order Simulator ***
+
+Warmup Instructions: 1000000
+Simulation Instructions: 1000000
+Number of CPUs: 1
+LLC sets: 2048
+LLC ways: 16
+Off-chip DRAM Size: 4096 MB Channels: 1 Width: 64-bit Data Rate: 3200 MT/s
+
+CPU 0 runs dpc3_traces/605.mcf_s-1536B.champsimtrace.xz
+CPU 0 Bimodal branch predictor
+Initialize SRRIP state
+
+Warmup complete CPU 0 instructions: 1000001 cycles: 327987 (Simulation time: 0 hr 0 min 4 sec) 
+
+Finished CPU 0 instructions: 1000003 cycles: 6027728 cumulative IPC: 0.1659 (Simulation time: 0 hr 0 min 10 sec) 
+
+ChampSim completed all CPUs
+
+Region of Interest Statistics
+
+CPU 0 cumulative IPC: 0.1659 instructions: 1000003 cycles: 6027728
+L1D TOTAL     ACCESS:     185055  HIT:     151028  MISS:      34027
+L1D LOAD      ACCESS:     140709  HIT:     109455  MISS:      31254
+L1D RFO       ACCESS:      44346  HIT:      41573  MISS:       2773
+L1D PREFETCH  ACCESS:          0  HIT:          0  MISS:          0
+L1D WRITEBACK ACCESS:          0  HIT:          0  MISS:          0
+L1D PREFETCH  REQUESTED:          0  ISSUED:          0  USEFUL:          0  USELESS:          0
+L1D AVERAGE MISS LATENCY: 156.933 cycles
+L1I TOTAL     ACCESS:     197054  HIT:     197054  MISS:          0
+L1I LOAD      ACCESS:     197054  HIT:     197054  MISS:          0
+L1I RFO       ACCESS:          0  HIT:          0  MISS:          0
+L1I PREFETCH  ACCESS:          0  HIT:          0  MISS:          0
+L1I WRITEBACK ACCESS:          0  HIT:          0  MISS:          0
+L1I PREFETCH  REQUESTED:          0  ISSUED:          0  USEFUL:          0  USELESS:          0
+L1I AVERAGE MISS LATENCY: -nan cycles
+L2C TOTAL     ACCESS:      56213  HIT:      30762  MISS:      25451
+L2C LOAD      ACCESS:      31254  HIT:       5855  MISS:      25399
+L2C RFO       ACCESS:       2773  HIT:       2721  MISS:         52
+L2C PREFETCH  ACCESS:          0  HIT:          0  MISS:          0
+L2C WRITEBACK ACCESS:      22186  HIT:      22186  MISS:          0
+L2C PREFETCH  REQUESTED:          0  ISSUED:          0  USEFUL:          0  USELESS:          0
+L2C AVERAGE MISS LATENCY: 178.28 cycles
+LLC TOTAL     ACCESS:      47603  HIT:      10651  MISS:      36952
+LLC LOAD      ACCESS:      25399  HIT:        125  MISS:      25274
+LLC RFO       ACCESS:         52  HIT:         18  MISS:         34
+LLC PREFETCH  ACCESS:          0  HIT:          0  MISS:          0
+LLC WRITEBACK ACCESS:      22152  HIT:      10508  MISS:      11644
+LLC PREFETCH  REQUESTED:          0  ISSUED:          0  USEFUL:          0  USELESS:          0
+LLC AVERAGE MISS LATENCY: 101.257 cycles
+Major fault: 0 Minor fault: 3589
+
+DRAM Statistics
+ CHANNEL 0
+ RQ ROW_BUFFER_HIT:       6320  ROW_BUFFER_MISS:      18988
+ DBUS_CONGESTED:       6024
+ WQ ROW_BUFFER_HIT:        810  ROW_BUFFER_MISS:       9107  FULL:          0
+
+ AVG_CONGESTED_CYCLE: 6
+
+CPU 0 Branch Prediction Accuracy: 99.9653% MPKI: 0.0539998 Average ROB Occupancy at Mispredict: 153.722
+
+Branch types
+NOT_BRANCH: 844230 84.4227%
+BRANCH_DIRECT_JUMP: 22732 2.27319%
+BRANCH_INDIRECT: 0 0%
+BRANCH_CONDITIONAL: 88692 8.86917%
+BRANCH_DIRECT_CALL: 22173 2.21729%
+BRANCH_INDIRECT_CALL: 0 0%
+BRANCH_RETURN: 22173 2.21729%
+BRANCH_OTHER: 0 0%
+
+Buffer size 512
+*****************************************************************************
+Total Access: 47603 , Number of Tag Comparsion: 2238578
+Overhead: 47.026
+ Categorisation of sets based on accesses 
+*****************
+     Very Hot     
+*****************
+Set No             Freq 
+93             264
+*****************
+      Hot     
+*****************
+Set No             Freq 
+15             263
+1057             262
+3             262
+13             261
+177             260
+121             260
+1195             259
+116             259
+87             259
+38             259
+32             259
+14             259
+605             258
+196             258
+122             257
+51             257
+40             257
+39             257
+33             257
+10             257
+4             257
+1878             256
+140             256
+94             256
+1335             255
+123             255
+1915             254
+1086             254
+224             254
+95             254
+1592             253
+1084             253
+475             253
+367             253
+317             253
+1619             252
+792             252
+197             252
+1138             251
+1112             251
+1140             250
+153             250
+1299             249
+743             249
+178             249
+2019             248
+554             248
+293             248
+1918             247
+1406             247
+*****************
+     Very Cold    
+ *****************
+Set No             Freq 
+1383             34
+*****************
+     Cold     
+*****************
+Set No             Freq 
+1882             34
+27             35
+637             35
+638             35
+657             35
+746             35
+876             35
+1006             35
+1061             35
+1300             35
+1439             35
+1726             35
+1742             35
+1779             35
+1937             35
+1938             35
+110             36
+212             36
+287             36
+341             36
+471             36
+609             36
+691             36
+829             36
+959             36
+1062             36
+1150             36
+1278             36
+1305             36
+1337             36
+1379             36
+1380             36
+1400             36
+1438             36
+1443             36
+1513             36
+1594             36
+1596             36
+1622             36
+1674             36
+1758             36
+1780             36
+1836             36
+1940             36
+1942             36
+1973             36
+1974             36
+19             37
+55             37
+111             37
+Categorisation of sets based on Eviction 
+*****************
+     Very Hot     
+*****************
+Set No             Freq 
+15             5748
+*****************
+      Hot     
+*****************
+Set No             Freq 
+10             5684
+7             5673
+0             5651
+12             5635
+14             5546
+4             5497
+3             5478
+13             5420
+1             5385
+5             5344
+11             5323
+9             5323
+2             5319
+8             5267
+6             5202
+38             1583
+40             1582
+49             1580
+27             1580
+33             1579
+32             1578
+21             1567
+39             1564
+50             1560
+51             1555
+48             1547
+42             1544
+16             1499
+36             1494
+34             1487
+52             1481
+62             1480
+37             1475
+57             1471
+17             1471
+56             1466
+54             1466
+19             1466
+58             1463
+60             1460
+44             1460
+35             1459
+20             1457
+59             1455
+31             1455
+63             1453
+45             1452
+61             1451
+55             1448
+41             1446
+*****************
+     Very Cold    
+ *****************
+Set No             Freq 
+1095             13
+*****************
+     Cold     
+*****************
+Set No             Freq 
+1779             13
+1061             14
+1098             14
+1328             14
+1526             14
+1706             14
+1742             14
+1883             14
+1912             14
+1937             14
+1060             15
+1062             15
+1064             15
+1070             15
+1107             15
+1110             15
+1111             15
+1143             15
+1144             15
+1145             15
+1146             15
+1161             15
+1171             15
+1189             15
+1199             15
+1296             15
+1300             15
+1329             15
+1330             15
+1337             15
+1349             15
+1368             15
+1377             15
+1405             15
+1424             15
+1431             15
+1456             15
+1458             15
+1482             15
+1513             15
+1514             15
+1527             15
+1596             15
+1603             15
+1699             15
+1726             15
+1744             15
+1747             15
+1753             15
+1770             15

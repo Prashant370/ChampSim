@@ -1,0 +1,1 @@
+./run_champsim.sh: line 45: ./bin/bimodal-no-no-no-no-lru-1core: Permission denied

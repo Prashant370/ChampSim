@@ -1,0 +1,335 @@
+
+*** ChampSim Multicore Out-of-Order Simulator ***
+
+Warmup Instructions: 100000000
+Simulation Instructions: 100000000
+Number of CPUs: 1
+LLC sets: 2048
+LLC ways: 16
+Off-chip DRAM Size: 4096 MB Channels: 1 Width: 64-bit Data Rate: 3200 MT/s
+
+CPU 0 runs dpc3_traces/444.namd-120B.champsimtrace.xz
+CPU 0 Bimodal branch predictor
+Initialize SRRIP state
+Heartbeat CPU 0 instructions: 10000000 cycles: 3770470 heartbeat IPC: 2.65219 cumulative IPC: 2.65219 (Simulation time: 0 hr 0 min 11 sec) 
+Heartbeat CPU 0 instructions: 20000003 cycles: 7391822 heartbeat IPC: 2.7614 cumulative IPC: 2.70569 (Simulation time: 0 hr 0 min 21 sec) 
+Heartbeat CPU 0 instructions: 30000000 cycles: 11133850 heartbeat IPC: 2.67235 cumulative IPC: 2.69449 (Simulation time: 0 hr 0 min 32 sec) 
+Heartbeat CPU 0 instructions: 40000002 cycles: 14806302 heartbeat IPC: 2.72298 cumulative IPC: 2.70155 (Simulation time: 0 hr 0 min 42 sec) 
+Heartbeat CPU 0 instructions: 50000002 cycles: 18627468 heartbeat IPC: 2.617 cumulative IPC: 2.68421 (Simulation time: 0 hr 0 min 53 sec) 
+Heartbeat CPU 0 instructions: 60000003 cycles: 22401205 heartbeat IPC: 2.64989 cumulative IPC: 2.67843 (Simulation time: 0 hr 1 min 4 sec) 
+Heartbeat CPU 0 instructions: 70000003 cycles: 26146579 heartbeat IPC: 2.66996 cumulative IPC: 2.67721 (Simulation time: 0 hr 1 min 15 sec) 
+Heartbeat CPU 0 instructions: 80000001 cycles: 29858193 heartbeat IPC: 2.69425 cumulative IPC: 2.67933 (Simulation time: 0 hr 1 min 25 sec) 
+Heartbeat CPU 0 instructions: 90000002 cycles: 33529863 heartbeat IPC: 2.72356 cumulative IPC: 2.68417 (Simulation time: 0 hr 1 min 36 sec) 
+Heartbeat CPU 0 instructions: 100000002 cycles: 37181996 heartbeat IPC: 2.73813 cumulative IPC: 2.68947 (Simulation time: 0 hr 1 min 46 sec) 
+
+Warmup complete CPU 0 instructions: 100000002 cycles: 37181996 (Simulation time: 0 hr 1 min 46 sec) 
+
+Heartbeat CPU 0 instructions: 110000000 cycles: 42624652 heartbeat IPC: 1.83734 cumulative IPC: 1.83734 (Simulation time: 0 hr 1 min 54 sec) 
+Heartbeat CPU 0 instructions: 120000002 cycles: 48107687 heartbeat IPC: 1.82381 cumulative IPC: 1.83055 (Simulation time: 0 hr 2 min 2 sec) 
+Heartbeat CPU 0 instructions: 130000001 cycles: 53647935 heartbeat IPC: 1.80497 cumulative IPC: 1.82194 (Simulation time: 0 hr 2 min 11 sec) 
+Heartbeat CPU 0 instructions: 140000001 cycles: 58967361 heartbeat IPC: 1.8799 cumulative IPC: 1.83609 (Simulation time: 0 hr 2 min 18 sec) 
+Heartbeat CPU 0 instructions: 150000003 cycles: 64520956 heartbeat IPC: 1.80064 cumulative IPC: 1.82889 (Simulation time: 0 hr 2 min 27 sec) 
+Heartbeat CPU 0 instructions: 160000001 cycles: 69667188 heartbeat IPC: 1.94317 cumulative IPC: 1.847 (Simulation time: 0 hr 2 min 34 sec) 
+Heartbeat CPU 0 instructions: 170000003 cycles: 75054580 heartbeat IPC: 1.85619 cumulative IPC: 1.8483 (Simulation time: 0 hr 2 min 42 sec) 
+Heartbeat CPU 0 instructions: 180000001 cycles: 80378121 heartbeat IPC: 1.87845 cumulative IPC: 1.85202 (Simulation time: 0 hr 2 min 50 sec) 
+Heartbeat CPU 0 instructions: 190000003 cycles: 85908949 heartbeat IPC: 1.80805 cumulative IPC: 1.84703 (Simulation time: 0 hr 2 min 59 sec) 
+Heartbeat CPU 0 instructions: 200000000 cycles: 91342945 heartbeat IPC: 1.84027 cumulative IPC: 1.84635 (Simulation time: 0 hr 3 min 9 sec) 
+Finished CPU 0 instructions: 100000002 cycles: 54160950 cumulative IPC: 1.84635 (Simulation time: 0 hr 3 min 9 sec) 
+
+ChampSim completed all CPUs
+
+Region of Interest Statistics
+
+CPU 0 cumulative IPC: 1.84635 instructions: 100000002 cycles: 54160950
+L1D TOTAL     ACCESS:   19538643  HIT:   19326203  MISS:     212440
+L1D LOAD      ACCESS:   16043389  HIT:   15841316  MISS:     202073
+L1D RFO       ACCESS:    3495254  HIT:    3484887  MISS:      10367
+L1D PREFETCH  ACCESS:          0  HIT:          0  MISS:          0
+L1D WRITEBACK ACCESS:          0  HIT:          0  MISS:          0
+L1D PREFETCH  REQUESTED:          0  ISSUED:          0  USEFUL:          0  USELESS:          0
+L1D AVERAGE MISS LATENCY: 21.2 cycles
+L1I TOTAL     ACCESS:   17066930  HIT:   17066910  MISS:         20
+L1I LOAD      ACCESS:   17066930  HIT:   17066910  MISS:         20
+L1I RFO       ACCESS:          0  HIT:          0  MISS:          0
+L1I PREFETCH  ACCESS:          0  HIT:          0  MISS:          0
+L1I WRITEBACK ACCESS:          0  HIT:          0  MISS:          0
+L1I PREFETCH  REQUESTED:          0  ISSUED:          0  USEFUL:          0  USELESS:          0
+L1I AVERAGE MISS LATENCY: 160.35 cycles
+L2C TOTAL     ACCESS:     250191  HIT:     237012  MISS:      13179
+L2C LOAD      ACCESS:     202075  HIT:     188922  MISS:      13153
+L2C RFO       ACCESS:      10364  HIT:      10339  MISS:         25
+L2C PREFETCH  ACCESS:          0  HIT:          0  MISS:          0
+L2C WRITEBACK ACCESS:      37752  HIT:      37751  MISS:          1
+L2C PREFETCH  REQUESTED:          0  ISSUED:          0  USEFUL:          0  USELESS:          0
+L2C AVERAGE MISS LATENCY: 99.6938 cycles
+LLC TOTAL     ACCESS:      16022  HIT:       6128  MISS:       9894
+LLC LOAD      ACCESS:      13153  HIT:       4358  MISS:       8795
+LLC RFO       ACCESS:         25  HIT:         15  MISS:         10
+LLC PREFETCH  ACCESS:          0  HIT:          0  MISS:          0
+LLC WRITEBACK ACCESS:       2844  HIT:       1755  MISS:       1089
+LLC PREFETCH  REQUESTED:          0  ISSUED:          0  USEFUL:          0  USELESS:          0
+LLC AVERAGE MISS LATENCY: 92.7811 cycles
+Major fault: 0 Minor fault: 595
+
+DRAM Statistics
+ CHANNEL 0
+ RQ ROW_BUFFER_HIT:       5979  ROW_BUFFER_MISS:       2826
+ DBUS_CONGESTED:       1316
+ WQ ROW_BUFFER_HIT:        127  ROW_BUFFER_MISS:        271  FULL:          0
+
+ AVG_CONGESTED_CYCLE: 3
+
+CPU 0 Branch Prediction Accuracy: 95.8307% MPKI: 2.4373 Average ROB Occupancy at Mispredict: 33.5244
+
+Branch types
+NOT_BRANCH: 94153915 94.1539%
+BRANCH_DIRECT_JUMP: 333362 0.333362%
+BRANCH_INDIRECT: 0 0%
+BRANCH_CONDITIONAL: 5512210 5.51221%
+BRANCH_DIRECT_CALL: 116 0.000116%
+BRANCH_INDIRECT_CALL: 0 0%
+BRANCH_RETURN: 116 0.000116%
+BRANCH_OTHER: 0 0%
+
+Buffer size 512
+*****************************************************************************
+Total Access: 16022 , Number of Tag Comparsion: 272436074
+Overhead: 17003.9
+ Categorisation of sets based on accesses 
+*****************
+     Very Hot     
+*****************
+Set No             Freq 
+486             269
+*****************
+      Hot     
+*****************
+Set No             Freq 
+1106             266
+1132             265
+374             265
+898             264
+807             263
+1247             262
+1107             261
+603             261
+36             260
+1442             259
+289             259
+1260             258
+1131             258
+256             258
+1257             257
+753             257
+736             257
+1830             256
+948             255
+929             255
+288             255
+1146             254
+241             250
+1383             249
+308             249
+1842             246
+1151             245
+875             243
+1849             241
+1852             233
+244             233
+171             232
+902             223
+829             222
+913             221
+1286             198
+1147             192
+386             187
+1938             186
+298             185
+22             178
+1724             174
+1332             173
+890             168
+236             167
+314             159
+1813             158
+1119             157
+962             154
+897             150
+*****************
+     Very Cold    
+ *****************
+Set No             Freq 
+1415             18
+*****************
+     Cold     
+*****************
+Set No             Freq 
+1424             18
+1425             18
+1465             18
+1504             18
+1513             18
+1940             18
+155             19
+188             19
+217             19
+231             19
+239             19
+260             19
+363             19
+365             19
+400             19
+401             19
+411             19
+434             19
+453             19
+882             19
+1038             19
+1039             19
+1049             19
+1097             19
+1104             19
+1105             19
+1110             19
+1117             19
+1125             19
+1129             19
+1144             19
+1149             19
+1152             19
+1162             19
+1175             19
+1184             19
+1185             19
+1196             19
+1197             19
+1198             19
+1207             19
+1208             19
+1211             19
+1214             19
+1215             19
+1231             19
+1234             19
+1243             19
+1245             19
+1246             19
+Categorisation of sets based on Eviction 
+*****************
+     Very Hot     
+*****************
+Set No             Freq 
+1             20851
+*****************
+      Hot     
+*****************
+Set No             Freq 
+2             18253
+7             16675
+3             15787
+6             14757
+5             14534
+0             13991
+63             12839
+4             12548
+8             11469
+10             10585
+9             10535
+14             9854
+11             9448
+12             9359
+62             9282
+13             8779
+15             7797
+60             7231
+61             6814
+16             6414
+17             5854
+42             5405
+49             5354
+43             5197
+32             5056
+20             4651
+21             4583
+29             4558
+18             4457
+41             4453
+30             4342
+22             4274
+19             4175
+45             4096
+31             4091
+27             4036
+23             4035
+58             3976
+28             3955
+25             3901
+24             3873
+54             3820
+56             3806
+48             3799
+46             3772
+50             3770
+59             3769
+36             3744
+44             3615
+39             3590
+*****************
+     Very Cold    
+ *****************
+Set No             Freq 
+1414             6
+*****************
+     Cold     
+*****************
+Set No             Freq 
+1426             6
+1921             6
+1975             6
+1984             6
+1985             6
+2014             6
+2028             6
+1280             7
+1281             7
+1289             7
+1323             7
+1358             7
+1361             7
+1367             7
+1384             7
+1404             7
+1405             7
+1415             7
+1420             7
+1425             7
+1429             7
+1504             7
+1575             7
+1585             7
+1592             7
+1598             7
+1605             7
+1606             7
+1613             7
+1614             7
+1680             7
+1683             7
+1699             7
+1751             7
+1762             7
+1771             7
+1792             7
+1800             7
+1817             7
+1818             7
+1911             7
+1912             7
+1913             7
+1923             7
+1924             7
+1949             7
+1970             7
+1976             7
+1977             7
+1978             7
